@@ -6,21 +6,21 @@ layout: default
 
 <img class="profile-picture" src="profile.jpg" alt="Profile photo">
 
-Hi! 👋 欢迎来到我的博客。
+Hi! 👋 I'm Dianashiba.
 
-这里记录我在技术和生活上的思考与探索。
+Here is my brief introduction. You can describe who you are, what you do, and your interests.
 
-<!-- 联系方式，按需取消注释
-[Email](mailto:you@example.com) / [GitHub](https://github.com/yourname)
--->
+[Email](mailto:you@example.com) / [GitHub](https://github.com/Dianashiba)
 
-<br>
+---
 
-## Recent Posts
+## Publications & Projects
 
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url }}) — *{{ post.date | date: "%Y-%m-%d" }}*
-  {{ post.description }}
-{% endfor %}
+- **Project Name** — Short description of this project. [\[link\]](https://github.com/Dianashiba)
+- **Another Project** — Brief introduction of what this is about. [\[link\]](https://github.com/Dianashiba)
 
-[View all posts →](/blog)
+---
+
+## Misc
+
+Some other things you'd like to share — hobbies, pets, photos, etc.
