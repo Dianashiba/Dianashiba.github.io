@@ -1,17 +1,20 @@
 title: "Dianashiba"
-description: "Personal Homepage"
-
-remote_theme: ankitsultana/researcher
-
-nav:
-  - name: "About"
-    link: "/"
-
-footer: "&copy; 2026 Dianashiba"
+url: "https://dianashiba.github.io/"
+baseurl: ""
 
 markdown: kramdown
-kramdown:
-  input: GFM
 
+footer: yes
+footer_text: "Dianashiba©2026"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: ""
+
+remote_theme: ankitsultana/researcher@gem
 plugins:
   - jekyll-remote-theme
