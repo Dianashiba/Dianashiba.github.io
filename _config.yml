@@ -1,0 +1,28 @@
+title: "D1anash1ba"
+description: "这里是我的技术博客，记录学习与思考。"
+
+remote_theme: ankitsultana/researcher
+
+# 导航栏链接
+nav:
+  - name: "About"
+    link: "/"
+  - name: "Blog"
+    link: "/blog"
+
+# 页脚
+footer: "&copy; 2026 D1anash1ba"
+
+# Markdown 渲染
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# 插件（GitHub Pages 默认支持）
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+
+# 分页
+paginate: 10
+paginate_path: "/blog/page:num/"
